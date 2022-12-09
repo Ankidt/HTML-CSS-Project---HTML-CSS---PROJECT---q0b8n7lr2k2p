@@ -1,7 +1,8 @@
-const contents = document.querySelector(`content`)
-const listItems = document.querySelector(`nav ul li`)
-listItems.forEach((Item,idx) => {
-    item.addEventlistener(`click`,()=>{
+const contents = document.querySelectorAll(`content`)
+const listItems = document.querySelectorAll(`nav ul li`)
+
+listItems.forEach((item,idx) => {
+    item.addEventListener(`click`,()=>{
         hideAllContents()
         hideAllItems()
 
